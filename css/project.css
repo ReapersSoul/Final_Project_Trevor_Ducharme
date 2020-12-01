@@ -1,0 +1,104 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+:root{
+    --red: #BA0C2F;
+    --yellow: #FFC423;
+    --offWhite:#f9f1f1;
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+.club-text{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.club-img-dsaga{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('../img/dsaga.png');
+    background-position: center;
+    background-size: cover;
+}
+.club-img-aegis{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('../img/aegis.png');
+    background-position: center;
+    background-size: cover;
+}
+.club-img-bcp{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('../img/BCP.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.club-img-amgolf{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('../img/amgolfclub.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.club-img-bajarace{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('../img/bajaraceclub.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.club-img-bulldogradio{
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('../img/bulldogradio.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-LOGO{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+.navbar-Ferris {
+    background-color: var(--red);
+}
+
+.Text-White{
+    color: var(--offWhite);
+}
+.Text-White-Small{
+    font-weight: bold;
+    color: var(--offWhite);
+}
+
+.navbar-Ferris .navbar-brand,
+.navbar-Ferris .navbar-text,
+.navbar-Ferris .nav-link {
+    color: var(--offWhite);
+}
+
+.jumbotron{
+    background-image: url('../img/prideflag.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 70%
+}
+
+.customCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

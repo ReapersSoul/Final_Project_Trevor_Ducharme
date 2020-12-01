@@ -1,0 +1,8 @@
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3 Text-White">Hello, Students!</h1>
+      <p class="Text-White-Small">Ferris state is a place for students of all Races, Genders, and Sexuality's. </br>If your want to meet like minded people you should check out our clubs.</p>
+      <p><a class="btn btn-primary btn-lg" href="clubs.php" role="button">Learn more &raquo;</a></p>
+    </div>
+  </div>
